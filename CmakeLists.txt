@@ -41,3 +41,16 @@ target_link_libraries(
     PRIVATE
         ${PROJECT_NAME}lib
 )
+
+add_custom_target(
+    teste
+
+    COMMAND
+        echo "fgyj"
+    COMMAND
+        echo "fgyj"
+    COMMAND
+        echo "fgyj"
+    COMMAND
+        echo "fgyj"
+)
